@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue';
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 70vh;
+    background-image: url(assets/images/bg.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.46;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 73px;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.hero {
+    height: calc(90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: px;
+
+}
+
+.hero> :first-child {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.sep {
+    height: 6px;
+    background-color: rgb(60, 57, 57);
+}
+
+.btn {
+    font-family: 'Helvetica Neue';
+    padding: 5px 8px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 24, 24, 0.7);
+    cursor: pointer;
+}
+
+.btn-red {
+    font-size: 18px;
+    color: white;
+    padding: 12px 54px;
+    font-weight: 500;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.btn-red-si {
+    color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: none;
+}
+
+.hero input {
+
+    color: rgb(255, 255, 255);
+    padding: 15px 160px 15px 12px;
+    background-color: rgba(25, 24, 24, 0.7);
+    border-radius: 6px;
+    border: 1px solid rgba(245, 243, 243, 0.5);
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first {
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.firstImg {
+    position: relative;
+}
+
+.firstImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.firstImg video {
+    width: 555px;
+    top: 50px;
+    right: 0px;
+    position: absolute;
+
+
+}
+
+section.first>div :first-child {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+section.first>div :nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.faq h2 {
+    padding: 37px 0 15px;
+    font-weight: 900;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.fbox:hover{
+    cursor: pointer;
+    background-color: rgb(60, 57, 57);
+}
+.fbox svg{
+    filter: invert(1);
+}
+
+.fbox {
+    transform:all 1s ease-in-out;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    align-items: center;
+    max-width: 70vw;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(38, 37, 37);
+    
+    
+}
+.ques{ 
+    padding: 50px 20vw 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255,0.7);
+}
+.ques a{
+    color:rgba(255, 255, 255,0.7) ;
+}
+.footer{
+   
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    padding: 10px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 24px 90px ;
+}
+.grid a{
+    font-size: 14px;
+    color: rgba(255, 255, 255,0.7);
+}
+.memb{
+    color: rgb(255, 255, 255);
+    padding: 35px 0 50px;
+    display: flex;
+    flex-direction: column;
+    font-size:18px ;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 15px;
+}
+
+.btm{
+    color: rgb(255, 255, 255);
+    padding: 15px 160px 15px 12px;
+    background-color: rgba(25, 24, 24, 0.7);
+    border-radius: 6px;
+    border: 1px solid rgba(245, 243, 243, 0.5);
+}
+ @media screen and (max-width: 1300px) {
+
+   .hero > :first-child{
+    font-size: 44px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: cen
+   }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
